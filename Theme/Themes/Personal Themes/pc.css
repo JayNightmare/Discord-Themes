@@ -423,7 +423,7 @@ img[src*=a_fed43ab12698df65902ba06727e20c0e], img[src*=a_d3da36040163ee0f9176dfe
     flex-wrap: wrap !important;
 }
 
-[aria-label="User area"] [class*=container]:has([aria-label="Set Status"]) {
+[aria-label="User area"] [class*=container]:has([aria-label="Set Status"]) > div {
     display: flex !important;
     align-items: center !important;
     flex-direction: column !important;
