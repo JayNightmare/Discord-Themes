@@ -166,10 +166,6 @@
     margin-top: 30px;
 }
 
-[class*=headerInner] > div:has([class*=fullSize]) {
-    position: relative;
-}
-
 [class*=usernameRow_] {
     z-index: 1000;
     top: 400px !important;
