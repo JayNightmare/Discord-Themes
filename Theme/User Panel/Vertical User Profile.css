@@ -46,9 +46,6 @@
 /* Expand pfp */ 
 [aria-label="User Profile Modal"]:has([class*=small])
 [class*=headerInner] svg[class*=svg_] {
-    height: calc(138px + 45%) !important;
-    transform: translate(5px, -25px);
-
     circle{
         r: 10.6;
     }
