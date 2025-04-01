@@ -168,8 +168,6 @@
 
 [class*=headerInner] > div:has([class*=fullSize]) {
     position: relative;
-    top: 5px;
-    left: -120px;
 }
 
 [class*=usernameRow_] {
