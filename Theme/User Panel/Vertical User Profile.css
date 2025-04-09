@@ -103,19 +103,21 @@
     flex-direction: column;
 }
 
-/* If there is over 3 display in 3's */
+/* If there is over 3 display in 3's 
 [aria-label="User Profile Modal"]:has([class*=small])
 [aria-label="User Badges"]:has(> div:nth-child(n+3)) {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     justify-items: center !important;
 }
+*/
 
-/* If there is under 3 display in 2's */
+/* If there is under 3 display in 2's 
 [aria-label="User Profile Modal"]:has([class*=small])
 [aria-label="User Badges"]:has(> div:nth-child(n+2)) {
     grid-template-columns: repeat(2, 1fr);
 }
+*/
 
 /* If more than 1 badge -> add 5px padding right */
 [aria-label="User Badges"]:has(> div:nth-child(n+2)) {
